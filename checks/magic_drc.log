@@ -1,0 +1,27 @@
+
+Magic 8.3 revision 147 - Compiled on Fri May  7 21:32:03 UTC 2021.
+Starting magic under Tcl interpreter
+Using the terminal as the console.
+Using NULL graphics device.
+Processing system .magicrc file
+Sourcing design .magicrc for technology sky130A ...
+2 Magic internal units = 1 Lambda
+Input style sky130(): scaleFactor=2, multiplier=2
+Scaled tech values by 2 / 1 to match internal grid scaling
+Loading sky130A Device Generator Menu ...
+Loading "/usr/local/bin/drc_checks/magic_drc_check.tcl" from command line.
+Warning: Calma reading is not undoable!  I hope that's OK.
+Library written using GDS-II Release 3.0
+Library name: user_analog_project_wrapper
+Reading "comparator".
+Reading "user_analog_project_wrapper".
+[INFO]: Loading user_analog_project_wrapper
+
+DRC style is now "drc(full)"
+Loading DRC CIF style.
+No errors found.
+[INFO]: COUNT: 0
+[INFO]: Should be divided by 3 or 4
+[INFO]: DRC Checking DONE (/run/media/malay/6be2233d-18c3-46f3-acec-b4e06d2e1a6a/ManjaroWork/VLSI/MPW-2/caravel_comparator/checks/user_analog_project_wrapper.magic.drc)
+[INFO]: Saving mag view with DRC errors(/run/media/malay/6be2233d-18c3-46f3-acec-b4e06d2e1a6a/ManjaroWork/VLSI/MPW-2/caravel_comparator/checks/user_analog_project_wrapper.magic.drc.mag)
+[INFO]: Saved

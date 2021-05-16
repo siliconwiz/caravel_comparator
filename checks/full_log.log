@@ -1,0 +1,44 @@
+FULL RUN LOG:
+ Uncompressing the gds files
+Step 0 done without fatal errors.
+ Executing Step 1 of 6: Checking License files.
+{{LICENSE COMPLIANCE PASSED}} Apache-2.0 LICENSE file was found in project root
+ No third party libraries found.
+Step 1 done without fatal errors.
+{{SPDX COMPLIANCE WARNING}} Found 30 non-compliant files with the SPDX Standard. Check full log for more information
+SPDX COMPLIANCE: NON-COMPLIANT FILES PREVIEW: ['/run/media/malay/6be2233d-18c3-46f3-acec-b4e06d2e1a6a/ManjaroWork/VLSI/MPW-2/caravel_comparator/caravel/verilog/rtl/mgmt_soc.v', '/run/media/malay/6be2233d-18c3-46f3-acec-b4e06d2e1a6a/ManjaroWork/VLSI/MPW-2/caravel_comparator/caravel/verilog/rtl/spimemio.v', '/run/media/malay/6be2233d-18c3-46f3-acec-b4e06d2e1a6a/ManjaroWork/VLSI/MPW-2/caravel_comparator/caravel/verilog/rtl/picorv32.v', '/run/media/malay/6be2233d-18c3-46f3-acec-b4e06d2e1a6a/ManjaroWork/VLSI/MPW-2/caravel_comparator/caravel/verilog/rtl/simpleuart.v', '/run/media/malay/6be2233d-18c3-46f3-acec-b4e06d2e1a6a/ManjaroWork/VLSI/MPW-2/caravel_comparator/caravel/verilog/dv/caravel/spiflash.v', '/run/media/malay/6be2233d-18c3-46f3-acec-b4e06d2e1a6a/ManjaroWork/VLSI/MPW-2/caravel_comparator/caravel/verilog/dv/caravel/tbuart.v', '/run/media/malay/6be2233d-18c3-46f3-acec-b4e06d2e1a6a/ManjaroWork/VLSI/MPW-2/caravel_comparator/caravel/verilog/dv/caravel/mgmt_soc/uart/uart_tb.v', '/run/media/malay/6be2233d-18c3-46f3-acec-b4e06d2e1a6a/ManjaroWork/VLSI/MPW-2/caravel_comparator/caravel/verilog/dv/caravel/mgmt_soc/timer/timer_tb.v', '/run/media/malay/6be2233d-18c3-46f3-acec-b4e06d2e1a6a/ManjaroWork/VLSI/MPW-2/caravel_comparator/caravel/verilog/dv/caravel/mgmt_soc/storage/storage_tb.v', '/run/media/malay/6be2233d-18c3-46f3-acec-b4e06d2e1a6a/ManjaroWork/VLSI/MPW-2/caravel_comparator/caravel/verilog/dv/caravel/mgmt_soc/mem/mem_tb.v', '/run/media/malay/6be2233d-18c3-46f3-acec-b4e06d2e1a6a/ManjaroWork/VLSI/MPW-2/caravel_comparator/caravel/verilog/dv/caravel/mgmt_soc/caravan/caravan_tb.v', '/run/media/malay/6be2233d-18c3-46f3-acec-b4e06d2e1a6a/ManjaroWork/VLSI/MPW-2/caravel_comparator/caravel/verilog/dv/caravel/mgmt_soc/qspi/qspi_tb.v', '/run/media/malay/6be2233d-18c3-46f3-acec-b4e06d2e1a6a/ManjaroWork/VLSI/MPW-2/caravel_comparator/caravel/verilog/dv/caravel/mgmt_soc/perf/perf_tb.v', '/run/media/malay/6be2233d-18c3-46f3-acec-b4e06d2e1a6a/ManjaroWork/VLSI/MPW-2/caravel_comparator/caravel/verilog/dv/caravel/mgmt_soc/timer2/timer2_tb.v', '/run/media/malay/6be2233d-18c3-46f3-acec-b4e06d2e1a6a/ManjaroWork/VLSI/MPW-2/caravel_comparator/caravel/verilog/dv/caravel/mgmt_soc/gpio/gpio_tb.v', '/run/media/malay/6be2233d-18c3-46f3-acec-b4e06d2e1a6a/ManjaroWork/VLSI/MPW-2/caravel_comparator/caravel/openlane/user_analog_project_wrapper_empty/or_ioplace.tcl', '/run/media/malay/6be2233d-18c3-46f3-acec-b4e06d2e1a6a/ManjaroWork/VLSI/MPW-2/caravel_comparator/.github/scripts/dv/run-dv.sh', '/run/media/malay/6be2233d-18c3-46f3-acec-b4e06d2e1a6a/ManjaroWork/VLSI/MPW-2/caravel_comparator/.github/workflows/auto_update_submodule.yml', '/run/media/malay/6be2233d-18c3-46f3-acec-b4e06d2e1a6a/ManjaroWork/VLSI/MPW-2/caravel_comparator/.github/workflows/caravan_build.yml', '/run/media/malay/6be2233d-18c3-46f3-acec-b4e06d2e1a6a/ManjaroWork/VLSI/MPW-2/caravel_comparator/.github/workflows/user_project_ci.yml']
+ Executing Step 2 of 6: Checking YAML description.
+ YAML file valid!
+Step 2 done without fatal errors.
+ Detected Project Type is "analog"
+ Executing Step 3 of 6: Executing Complaince Checks.
+b'Going into /run/media/malay/6be2233d-18c3-46f3-acec-b4e06d2e1a6a/ManjaroWork/VLSI/MPW-2/caravel_comparator/caravel'
+b'Removing manifest'
+b'Fetching manifest'
+b'Running sha1sum checks'
+ Manifest Checks Passed. Caravel Version Matches.
+ Makefile Checks Passed.
+ Documentation Checks Passed.
+ Executing Step 4 of 6: Executing Fuzzy Consistency Checks.
+instance caravan found
+instance user_analog_project_wrapper found
+Design is complex and contains: 36 modules
+Design is complex and contains: 2 modules
+verilog Consistency Checks Passed.
+ Basic Hierarchy Checks Passed.
+{PROGRESS} Running Pins and Power Checks...
+Pins check passed
+Internal Power Checks Passed!
+Power Checks Passed
+ Fuzzy Consistency Checks Passed!
+Step 4 done without fatal errors.
+ Executing Step 5 of 6: Executing XOR Consistency Checks.
+ Running XOR Checks...
+Total XOR differences = 0
+ XOR Checks on User Project GDS Passed!
+Step 5 done without fatal errors.
+ Executing Step 6 of 6: Checking DRC Violations.
+ Running Magic DRC Checks...
+ DRC Checks on User Project GDS Passed!
+Step 6 done without fatal errors.
+ All Checks PASSED!
