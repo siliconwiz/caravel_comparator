@@ -1,7 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1621158566
+timestamp 1623264863
 << checkpaint >>
 rect -4732 -4732 588732 708732
 << metal2 >>
@@ -793,7 +793,7 @@ rect 583520 2726 584800 2838
 rect -800 1544 480 1656
 rect 583520 1544 584800 1656
 use comparator  comparator_0
-timestamp 1621158566
+timestamp 1623264863
 transform 1 0 512636 0 -1 679846
 box -722 -1410 1692 1620
 << labels >>
