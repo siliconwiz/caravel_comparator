@@ -1,14 +1,16 @@
-# Caravel Analog User
+# Caravel Analog User - Comparator IP and Coil tests
 
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0) [![UPRJ_CI](https://github.com/efabless/caravel_user_project_analog/actions/workflows/user_project_ci.yml/badge.svg)](https://github.com/efabless/caravel_user_project_analog/actions/workflows/user_project_ci.yml) [![Caravan Build](https://github.com/efabless/caravel_user_project_analog/actions/workflows/caravan_build.yml/badge.svg)](https://github.com/efabless/caravel_user_project_analog/actions/workflows/caravan_build.yml)
 
 ---
 
-# [Google Skywater 130nm](https://github.com/google/skywater-pdk) Comparator IP
+# [Google Skywater 130nm](https://github.com/google/skywater-pdk) Comparator IP and Coil tests
 
 ## Introduction
 A comparator is a device that compares two analog inputs and outputs a digital signal indicating which input is larger. So it has two analog input terminals and one binary digital output. 
 When the difference between two analog input signals approach zero, noise on the inputs will cause spurious switching of digital output. This rapid change in output due to noise can be prevented by hysteresis. Hysteresis is switching the output high or low at different input signal levels. In place of one switching point, hysteresis introduces two: one for rising edge, and one for falling edge of voltage or current. The difference between the higher-level trip value (VH) and the lower-level trip value (VL) equals the hysteresis voltage (HYST).
+
+I have also included a coil to test on-chip inductance. FastHenry used for simulation.
 
 ### Inputs to the circuit
 1. VCC - 3.3 v
