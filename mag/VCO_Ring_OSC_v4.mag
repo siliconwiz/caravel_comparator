@@ -24,33 +24,33 @@ rect 326 209 373 215
 rect 326 182 332 209
 rect 367 182 373 209
 rect 326 -12 373 182
-use inverter3v3  inverter3v3_6
+use inverter3v3  inverter3v3_3
 timestamp 1623667149
-transform 1 0 1250 0 1 0
-box 0 0 175 554
-use inverter3v3  inverter3v3_5
-timestamp 1623667149
-transform 1 0 1075 0 1 0
-box 0 0 175 554
-use inverter3v3  inverter3v3_4
-timestamp 1623667149
-transform 1 0 700 0 1 0
-box 0 0 175 554
-use inverter3v3  inverter3v3_0
-timestamp 1623667149
-transform 1 0 0 0 1 0
-box 0 0 175 554
-use inverter3v3  inverter3v3_1
-timestamp 1623667149
-transform 1 0 175 0 1 0
+transform 1 0 525 0 1 0
 box 0 0 175 554
 use inverter3v3  inverter3v3_2
 timestamp 1623667149
 transform 1 0 350 0 1 0
 box 0 0 175 554
-use inverter3v3  inverter3v3_3
+use inverter3v3  inverter3v3_1
 timestamp 1623667149
-transform 1 0 525 0 1 0
+transform 1 0 175 0 1 0
+box 0 0 175 554
+use inverter3v3  inverter3v3_0
+timestamp 1623667149
+transform 1 0 0 0 1 0
+box 0 0 175 554
+use inverter3v3  inverter3v3_4
+timestamp 1623667149
+transform 1 0 700 0 1 0
+box 0 0 175 554
+use inverter3v3  inverter3v3_5
+timestamp 1623667149
+transform 1 0 1075 0 1 0
+box 0 0 175 554
+use inverter3v3  inverter3v3_6
+timestamp 1623667149
+transform 1 0 1250 0 1 0
 box 0 0 175 554
 << labels >>
 rlabel metal1 1433 187 1433 187 7 OUT
