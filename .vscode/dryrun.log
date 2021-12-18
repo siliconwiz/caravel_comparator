@@ -1,0 +1,22 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/run/media/malay/6be2233d-18c3-46f3-acec-b4e06d2e1a6a/ManjaroWork/VLSI/caravel_comparator'
+make -f /run/media/malay/6be2233d-18c3-46f3-acec-b4e06d2e1a6a/ManjaroWork/VLSI/caravel_comparator/caravel/Makefile Makefile
+make[1]: Entering directory '/run/media/malay/6be2233d-18c3-46f3-acec-b4e06d2e1a6a/ManjaroWork/VLSI/caravel_comparator'
+make[1]: Nothing to be done for 'Makefile'.
+make[1]: Leaving directory '/run/media/malay/6be2233d-18c3-46f3-acec-b4e06d2e1a6a/ManjaroWork/VLSI/caravel_comparator'
+cd ./verilog/dv/ && \
+export SIM=RTL && \
+	make -j
+make[1]: Entering directory '/run/media/malay/6be2233d-18c3-46f3-acec-b4e06d2e1a6a/ManjaroWork/VLSI/caravel_comparator/verilog/dv'
+for i in mprj_por; do \
+	( cd $i && make -f Makefile ${i}.vcd &> verify.log && grep Monitor verify.log) ; \
+done
+make[1]: Leaving directory '/run/media/malay/6be2233d-18c3-46f3-acec-b4e06d2e1a6a/ManjaroWork/VLSI/caravel_comparator/verilog/dv'
+make: Leaving directory '/run/media/malay/6be2233d-18c3-46f3-acec-b4e06d2e1a6a/ManjaroWork/VLSI/caravel_comparator'
+ 
+make[1]: /run/media/malay/6be2233d-18c3-46f3-acec-b4e06d2e1a6a/ManjaroWork/VLSI/caravel_comparator/caravel/Makefile: No such file or directory
+make[1]: *** No rule to make target '/run/media/malay/6be2233d-18c3-46f3-acec-b4e06d2e1a6a/ManjaroWork/VLSI/caravel_comparator/caravel/Makefile'.
+make[1]: Failed to remake makefile '/run/media/malay/6be2233d-18c3-46f3-acec-b4e06d2e1a6a/ManjaroWork/VLSI/caravel_comparator/caravel/Makefile'.
+make: *** [Makefile:40: Makefile] Error 2
+make: Failed to remake makefile 'Makefile'.
+ 
